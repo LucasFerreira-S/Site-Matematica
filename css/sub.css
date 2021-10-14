@@ -1,0 +1,172 @@
+* {
+  margin: 0; padding:0; font-family: 'Alata', sans-serif; text-decoration: none;
+  }
+body{width:90%;}
+body{
+  width:90%;
+  margin:auto;
+  min-width:600px;
+  max-width:2000px
+}
+.cabecalho a{
+  color: white;
+  background:initial;
+  text-decoration: none;
+
+}
+  .cabecalho {
+    float: right;
+    width:86.7%;
+    background-color: #008080;
+    padding:30px;
+    height: 30px;
+    border-radius: 5px 5px 0px 0px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    position: fixed;
+  }
+.page{
+  background-image: url('../img/fundMat.png') ;
+  background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 10;
+    color: white;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-attachment: fixed;
+}
+/* Borda caixa menu */
+.menu{
+  width: 86.7%;
+  height: 50px;
+  background-color: #008080;
+  list-style:none; 
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-radius: 0px 0px 5px 5px ;
+  float:left; 
+  margin-top: 90px;
+  position: fixed;
+}
+/* Barreira menu */
+.menu{
+  width: 91.0%;
+  height: 50px;
+  background-color: #008080;
+  list-style:none; 
+  border: 1px solid #FFFAFA ; 
+  border-radius: 0px 0px 5px 5px ;
+  float:left; 
+  align-items: center;
+
+}
+.menu ul{
+  margin-left:430px;
+
+}
+/* Barreira menu */
+.menu li{
+  top: 5px;
+  position:relative; 
+  float:left;
+  border-right:0px solid #FFFAFA; 
+  position: relative;
+}
+
+/* Letra menu */
+.menu li a{
+  color:white;
+  text-decoration:none;
+  padding: 10px 20px; 
+  display:block;
+}
+ 
+.menu li a:hover{
+  background: #20B2AA;
+  color:#fff; 
+  text-shadow:0px 0px 5px #40E0D0 ; 
+}
+.menu ul li{
+  width: 232px;
+  color: white;
+  text-align: relative;
+  display: block;
+}
+.menu ul li ul li a{
+  padding:2px;
+  display: block;
+}
+.menu li ul  :hover{
+  background:#20B2AA;
+  text-align: center;
+}
+.menu  li  ul{
+position:absolute; 
+top:40.9px; 
+right: 1px;
+background-color:#008080;
+display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+  display:block;
+}
+.menu li ul li{
+margin-top: 0;
+border:0.9px solid initial;
+display:block; 
+width:170.8px;
+}
+.menu ul{
+  padding: 0;
+}
+.menu ul ul{
+  display: none;
+}
+.menu ul ul li{
+  float: relative;
+  width: 230px;
+}
+.sla{
+    position: scroll;
+    text-align: center;    
+    margin-top: 270px;
+    float:center;
+    width: 86.6% ;
+    height: 278px;
+    margin-left: 100px;
+    background-color: #008080;
+    border-radius: 4px 4px 4px 4px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.test{
+    position: scroll;
+    margin-top: 30px;
+}
+.b2{
+    position: scroll;
+    text-align: center;    
+    margin-top: 15px;
+    float:center;
+    width: 30.6% ;
+    height: 165px;
+    margin: auto;
+    background-color: black;
+    border-radius: 4px 4px 4px 4px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
